@@ -25,6 +25,29 @@ Check the main controls in `controls.txt`. Additional controls are as follows:
 
 ## Edit the logging settings
 
+To modify the level of the `logger`, modify:
+
+```python
+logging.basicConfig(
+    filename="collisions.log", level=logging.INFO, format=LOG_FORMAT
+)
+```
+
+ on [Line 56](https://github.com/divyajeettt/collision-simulator/blob/cebc2bcb3bdc8bc4615e95d1917fd9471579347b/main.py#L56) of `main.py` to:
+ 
+ ```python
+logging.basicConfig(
+    filename="collisions.log", level=LEVEL, format=LOG_FORMAT
+)
+ ```
+ 
+ where `LEVEL` can be one of:
+ - `logging.INFO`
+ - `logging.DEBUG`
+ - `logging.WARNING`
+ - `logging.ERROR`
+ - `logging.CRITICAL`
+
 ## Run
 
 To run, clone the repository on your device, navigate to the folder, and execute:
