@@ -1,0 +1,19 @@
+Use of the Mouse:
+  - Press and Hold Left-Mouse Button to spawn a Ball
+  - While holding the Button, drag the Mouse opposite to the direction
+    in which you want to launch the Ball
+  - Click Left-Mouse Button on a Ball to view information about it
+  - Click Right-Mouse Button while drawing a Ball to cancel its release
+  - Click Right-Mouse Button on a Ball to remove it from the screen
+* Speed of the Ball will be proportional to the drag distance
+Use of the Keyboard:
+  - Press 'B' to toggle the visibility of the Box/Region where Balls
+    can be spawned
+  - Press 'C' to launch a menu to change Gravitational Acceleration
+  - Press and Hold 'D' to change density of the Balls being spwaned
+  - Press 'E' to launch a menu to change the Coefficient of Restitution
+  - Press 'G' to toggle Gravity, i.e. switch Gravity ON and OFF
+  - Press 'P' to Pause and Resume the Simulation
+  - Press 'R' to remove all Balls from the screen
+  - Press 'V' to toggle the visibility of velocity vectors of the Balls
+  - Press Arrow Keys to change the direction of Grvaity
