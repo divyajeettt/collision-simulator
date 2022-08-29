@@ -10,4 +10,6 @@ It is an interactive simulation where the user spawns circles on the screen, tha
 
 ## Features
 
+## Controls
+
 ## Run
