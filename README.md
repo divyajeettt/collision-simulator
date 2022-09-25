@@ -59,5 +59,5 @@ python3 main.py
 ## Footnotes and Issues
 
 - Beep sounds get delayed when a large number of collisions occur simultaneously.
-- If a Ball is moving too fast, it may be able to escape the boundary. This is possibly due to not registering its collision with the wall as its updated position stands outside the boundary.
+- If a Ball is moving too fast, it may be able to escape the boundary. This is possibly due to not registering its collision with the wall as its updated position stands outside the boundary. It seems like the issue can be solved by checking if the *'next'* position of the Ball is outside the Box, and if so, reflecting it off of the wall at that instant of time.
 - For lower restitutions of collision and for fast velocities, two or more balls may get stuck together.
