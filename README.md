@@ -2,7 +2,7 @@
 
 ## About collision-simulator
 
-collision-simulator is quite literally a simulation of [collisions](https://en.wikipedia.org/wiki/Collision), with variable coefficients of restitution, built using [`pygame`](https://www.pygame.org/docs/) in Python.
+collision-simulator is quite literally a simulation of **[collisions](https://en.wikipedia.org/wiki/Collision)**, with variable coefficients of restitution, built using [`pygame`](https://www.pygame.org/docs/) in Python.
 
 *Date of creation:* `03 September, 2021`
 
